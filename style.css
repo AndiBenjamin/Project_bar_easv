@@ -1,0 +1,334 @@
+body {
+  background-color: #cccccc;
+  margin:0;
+  font: 10px exo;
+  text-transform: capitalize;
+}
+
+header {
+  background-color: gray;
+
+}
+
+#header_controller {
+  width:810px;
+  height:150px;
+  margin: 0 auto;
+
+}
+
+#logo {
+  margin:25px 0 0 0;
+  width: 150px;
+  margin-right:10px;
+  height: 65px;
+  float:left;
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 25px;
+
+}
+
+/*
+*  NAVIGATION CSS START
+*/
+
+#navigation {
+  min-height: 25px;
+  margin:100px 0 0 0;
+  background-color: #ffffff;
+  width:650px;
+  float: left;
+}
+
+
+ul {
+  padding: 5px 0px;
+  margin: 0px;
+  z-index: 99;
+}
+
+ul li {
+  padding: 0px;
+  list-style: none;
+  float: left;
+  border-right: 1px solid #333333;
+}
+
+li a {
+  padding: 0px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li:last-child{
+  border-right: none;
+}
+li ul{
+  display: none;
+}
+ul li a:hover {
+  color: red;
+  hover
+}
+
+li:hover ul {
+  display: block;
+  position: absolute;
+}
+
+ul li ul li{
+  border-right: none;
+  width: 100px;
+  float: none;
+}
+li:hover a{
+  background-color: #ffffff
+}
+
+#navigation li a {
+  color: pink;
+}
+#navigation li a:hover {
+  color: yellow;
+}
+
+ul li ul li a{
+  padding: 5px 10px;
+}
+
+ul li{
+  position:relative;
+}
+li:hover li a:hover{
+  background-color: #dedede
+}
+ul li a{
+  display: block;
+}
+/*
+*  NAVIGATION CSS END
+*/
+
+main {
+  padding: 30px 0 0 0;
+  width:100%;
+  background-color: #dedede;
+}
+
+#top {
+  height:270px;
+  width:810px;
+  margin:0 auto;
+}
+
+
+#box1_txt, #box2_txt {
+  text-align: center;
+  padding-top:80px;
+  font-size: 44px;
+  color:#ffffff;
+}
+
+#box3_txt {
+  text-align: center;
+  font-size: 44px;
+  color:#ffffff;
+}
+
+#box1_bottom, #box2_bottom {
+  background-color: #ffffff;
+  width: 100%;
+  height:10px;
+  position: absolute;
+  bottom:0;
+  font-size: 12px;
+  text-align: center;
+  padding:10px 0 14px 0;
+}
+
+#box2_bottom {
+      border-top: 1px solid #bbbbbb;
+}
+
+#box1 {
+  box-shadow: -1px 1px 1px #999999;
+  background-image: url("Simpson_Bart.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#box1, #box2 {
+  background-color: aqua;
+  height:250px;
+  width:190px;
+  position: relative;
+  float:left;
+}
+
+
+#box2, #box3 {
+  margin:0 0 0 20px;
+}
+
+#box3 {
+  background-color: lime;
+  height:250px;
+  width:390px;
+  position: relative;
+  float:left;
+  box-shadow: 1px 1px 1px #999999;
+}
+
+hr {
+  width:90%;
+}
+
+#box3_bottom {
+  background-color: #ffffff;
+  width: 100%;
+  height:10px;
+  position: absolute;
+  bottom:0;
+  font-size: 12px;
+  text-align: center;
+  padding:10px 0 14px 0;
+}
+
+#bottom {
+  height:300px;
+  width: 810px;
+  margin: 0px auto;
+}
+#bottom_1{
+  background-color: #gray;
+  height: 250px;
+  width: 33.3%;
+  position: relative;
+  float: left;
+}
+#bottom_1_box_1 {
+  background-color: #aa0000;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  }
+
+#bottom_1_box_2 {
+  background-color: #156156;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 55px;
+  left: 60px;
+  }
+
+#bottom_1_box_3 {
+  background-color: #186186;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 20px;
+  left: 110px;
+  }
+
+#bottom_1_box_4 {
+  background-color: #159159;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 55px;
+  left: 150px;
+  }
+
+#bottom_2{
+  height: 250px;
+  width: 33.3%;
+  position: relative;
+  float: left;
+}
+
+#bottom_2_box_1 {
+  background-color: #145145;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  border: 1px solid #000000;
+  }
+
+#bottom_2_box_2 {
+  background-color: #123123;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 70px;
+  left: 90px;
+  border: 1px solid #000000;
+  }
+
+#bottom_2_box_3 {
+  background-color: #651651;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  border: 1px solid #000000;
+  }
+
+#bottom_3{
+  height: 250px;
+  width: 33.3%;
+  position: relative;
+  float: left;
+}
+
+#bottom_3_box_1 {
+  background-color: #8e51bc;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 1px solid #000000;
+  border-radius: 12.5%;
+  }
+
+#bottom_3_box_2 {
+  background-color: #8e51bc;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  border: 1px solid #000000;
+  border-radius: 25%;
+  }
+
+#bottom_3_box_3 {
+  background-color: #8e51bc;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  }
+
+#bottom_3_box_4 {
+  background-color: #8e51bc;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: 140px;
+  left: 150px;
+  border: 1px solid #000000;
+  border-radius: 37.5%;
+  }
+footer {}
